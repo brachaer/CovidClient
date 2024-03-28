@@ -1,0 +1,21 @@
+.form-container{
+    border-width: 2px;
+    border-color: darkcyan;
+    width:35%;
+    background-color: white;;
+        button {
+            margin: 5px;
+            background-color: black; 
+            border-color: #fff;
+            color: #fff; 
+            font-size: smaller;
+            border-radius: 25px;
+            cursor: pointer;
+          }
+          
+          button:hover {
+            background-color: darkcyan; 
+          }
+          
+    
+}

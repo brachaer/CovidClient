@@ -1,0 +1,38 @@
+.clients-list {
+    margin-top: 20px;
+}
+
+.clients-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 30%;
+
+}
+  
+.clients-table th,
+.clients-table td {
+    padding: 8px;
+     border: 1px solid #ddd; 
+  }
+  
+  .clients-table th {
+    background-color: lightseagreen;
+  }
+  
+  .clients-table tr:hover {
+    background-color: darkcyan;
+  }
+  .button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: black; 
+    border-color: #fff;
+    color: #fff; 
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkcyan; 
+  }
+  

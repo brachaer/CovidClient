@@ -1,0 +1,44 @@
+
+.covid-container {
+    margin: 10px;
+    background-color: white;
+    color: darkcyan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    max-width: 40%; 
+    max-height: 80%; 
+  }
+  .button {
+    margin: 5px;
+    background-color: black; 
+    border-color: #fff;
+    color: #fff; 
+    font-size: smaller;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkcyan; 
+  }
+  .form-container{
+    border-width: 10px;
+    border-color: darkcyan;
+    background-color: white;;
+        button {
+            margin: 5px;
+            background-color: black; 
+            border-color: #fff;
+            color: #fff; 
+            font-size: smaller;
+            border-radius: 25px;
+            cursor: pointer;
+          }
+          
+          button:hover {
+            background-color: darkcyan; 
+          }
+          
+    
+}

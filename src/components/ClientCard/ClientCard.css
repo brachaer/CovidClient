@@ -1,0 +1,48 @@
+.client-card-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .client-card-container {
+    margin: 10px;
+    background-color: white;
+    color: darkcyan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    max-width: 40%; 
+    max-height: 80%; 
+  }
+  .client-image{
+    max-width: 20%; 
+    max-height: 20%; 
+    border-radius: 30px;
+  }
+  .client-card-actions{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: black; 
+    border-color: #fff;
+    color: #fff; 
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkcyan; 
+  }
+  
