@@ -37,7 +37,7 @@ All Client data is securely stored and easily accessible.
 
 ### 4.	Run server:
       npm run dev
-### 6.	Follow with [server Repository](https://github.com/brachaer/CovidServer)
+### 6.	Follow with [Server Repository](https://github.com/brachaer/CovidServer)
 <br/>
 
 
