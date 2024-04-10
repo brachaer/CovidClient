@@ -87,7 +87,7 @@ function EditClientForm({ clientId, onSubmit }) {
       const response = await axios.patch(API_URL, { personalInfo });
       window.alert(`Edited Client Personal Info Succesfuly!`);
       if (typeof onSubmit === "function") {
-        onSubmit();
+       await onSubmit();
       }
     } catch (error) {
       console.error("Error:", error);

@@ -48,17 +48,18 @@ function HomePage() {
     setSelectedClient(null);
     refreshData();
   };
-
+const onEdit=async (clientId) => {
+  await handleSelectClient(clientId);
+};
   return (
     <div className="home-page ">
       {!selectedClient ? (
         <ClientsList
           clients={clients}
           onSelectClient={handleSelectClient}
-          refreshData={refreshData}
         />
       ) : (
-        <ClientCard client={selectedClient} onClose={onClose} />
+        <ClientCard client={selectedClient} onClose={onClose} onEdit={onEdit} />
       )}
     </div>
   );
