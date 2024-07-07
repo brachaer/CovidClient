@@ -4,8 +4,13 @@ import "./ClientCard.css";
 import CovidDetails from "../CovidDetails/CovidDetails";
 import EditClientInfo from "../EditClientInfo/EditClientInfo";
 
+<<<<<<< HEAD
 const ClientCard = ({ client, onClose }) => {
   const API_URL = "https://covidserver.onrender.com";
+=======
+const ClientCard = ({ client, onClose , onEdit}) => {
+  const API_URL = "http://localhost:8080/api/v1";
+>>>>>>> e049cd3083e89f42517d7055597a0abee2e48704
 
   const [deleted, setDeleted] = useState(false);
   const [clientData, setClientData] = useState(null);
@@ -46,8 +51,9 @@ const ClientCard = ({ client, onClose }) => {
     setShowCovidInfo((prevState) => !prevState);
   };
 
-  const handleEdit = () => {
-    setShowEditForm((prevState) => !prevState);
+  const handleEdit = async () => {
+    setShowEditForm((prevState) => !prevState);    
+  await onEdit(client._id);
   };
 
   return (
