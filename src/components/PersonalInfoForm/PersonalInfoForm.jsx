@@ -3,7 +3,7 @@ import axios from "axios";
 import "./PersonalInfoForm.css";
 
 function PersonalInfoForm({ onClose }) {
-  const API_URL = "http://localhost:8080/api/v1/clients";
+  const API_URL = "https://covidserver.onrender.com/clients";
   const [personalInfo, setPersonalInfo] = useState({
     firstName: "",
     lastName: "",

@@ -5,7 +5,7 @@ import ClientCard from "../../components/ClientCard/ClientCard";
 import "./HomePage.css";
 
 function HomePage() {
-  const API_URL = "http://localhost:8080/api/v1/clients";
+  const API_URL = "https://covidserver.onrender.com/clients";
 
   const [clients, setClients] = useState([]);
   const [selectedClient, setSelectedClient] = useState(null);

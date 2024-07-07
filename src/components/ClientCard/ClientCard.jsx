@@ -5,7 +5,7 @@ import CovidDetails from "../CovidDetails/CovidDetails";
 import EditClientInfo from "../EditClientInfo/EditClientInfo";
 
 const ClientCard = ({ client, onClose }) => {
-  const API_URL = "http://localhost:8080/api/v1";
+  const API_URL = "https://covidserver.onrender.com";
 
   const [deleted, setDeleted] = useState(false);
   const [clientData, setClientData] = useState(null);

@@ -3,7 +3,7 @@ import axios from "axios";
 import "./AddVaccine.css";
 
 function AddVaccine({ clientId, onSubmit }) {
-  const API_URL = `http://localhost:8080/api/v1/covid/vaccine/${clientId}`;
+  const API_URL = `https://covidserver.onrender.com/covid/vaccine/${clientId}`;
 
   const [vaccineDate, setVaccineDate] = useState("");
   const [vaccineManufacturer, setVaccineManufacturer] = useState("");

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 function EditClientForm({ clientId, onSubmit }) {
-  const API_URL = `http://localhost:8080/api/v1/clients/${clientId}`;
+  const API_URL = `https://covidserver.onrender.com/clients/${clientId}`;
   const [errors, setErrors] = useState({});
   const [clientData, setClientData] = useState({});
   const [personalInfo, setPersonalInfo] = useState({

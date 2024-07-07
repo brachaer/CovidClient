@@ -3,7 +3,7 @@ import axios from "axios";
 import "./AddPositiveResult.css";
 
 function AddPositiveResult({ clientId, onSubmit }) {
-  const API_URL = `http://localhost:8080/api/v1/covid/positive/${clientId}`;
+  const API_URL = `https://covidserver.onrender.com/covid/positive/${clientId}`;
 
   const [positiveResult, setPositiveResult] = useState(Date);
 
